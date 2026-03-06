@@ -134,7 +134,7 @@ index eca9aa9c9..62b1a9594 100644
 +}
 +
 +bool DeviceRequiresTXMWorkaround(bool condition) {
-+    if(condition) {
++    if(false) {
 +        DIR *d = opendir("/private/preboot");
 +        struct dirent *dir;
 +        char txmPath[PATH_MAX];
